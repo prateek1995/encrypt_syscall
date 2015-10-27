@@ -1,12 +1,14 @@
 # encrypt_syscall
 
 Syntax:
+
 	./xcipher -p "passkey" [-e -d] infile outfile
 
 Description:
 	xcipher takes an input file and [encypts decrypts] it with SHA1 hash of passkey passed by user.
 
 Options:
+
 	-h:	Display a help message and exit.
 	
 	-e: 	encrypts the input file.
